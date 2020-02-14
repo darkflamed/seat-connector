@@ -22,7 +22,7 @@ namespace Warlof\Seat\Connector;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Event;
-use Seat\Services\AbstractSeatPlugin;
+use App\Providers\AbstractSeatPlugin;
 use Warlof\Seat\Connector\Commands\DriverApplyPolicies;
 use Warlof\Seat\Connector\Commands\DriverUpdateSets;
 use Warlof\Seat\Connector\Events\EventLogger;
